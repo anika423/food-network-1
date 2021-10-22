@@ -1,0 +1,205 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#header{
+    display: flex;
+    margin-bottom: 7%;
+    padding-left: 7%;
+    
+}
+.header-part-1 h2{
+    font-size: 40px;
+    width: 58%;
+    padding-left: 14%;
+    padding-top: 14%;
+}
+
+.text-color{
+   color: crimson;
+}
+.text-p-1{
+    width: 64%;
+    padding-left: 14%;
+    color: crimson;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(crimson,cyan);
+    border-radius: 24px;
+    margin-left: 100px;
+    padding: 10px;
+    padding-bottom: 15px;
+    color: black;
+    padding-left: 25px;
+    box-shadow: 2px 4px 20px rgb(175, 55, 33);
+    font-size: 15px;
+}
+.header-part-1 img{
+    width: 100%;
+    padding-right: 40px;
+    margin-right: 40px;
+}
+#about-part{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+}
+.about-part-1 {
+    width: 50%;
+    padding-right: 5%;
+    margin-top: 100px;
+}
+.about-part-1 img{
+    height: 450px;
+    margin-left: 200px;
+    
+    
+
+}
+.about-part-c{
+    width: 50%;
+    margin-top: 100px;
+}
+.about-part-c h2{
+    font-size: 50px;
+    color: rgb(108, 30, 197);
+}
+.about-part-c p{
+    width: 45%;
+    color: cornflowerblue;
+    
+}
+.about-part-c a{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(243, 109, 132),rgb(94, 94, 231));
+    border-radius: 24px;
+    margin-left: 3px;
+    padding: 13px;
+    padding-bottom: 17px;
+    color: white;
+    padding-left: 31px;
+    box-shadow: 2px 4px 20px tomato;
+}
+.recipies-text{
+    text-align: center;
+}
+.recipies-text h1{
+    color: rgb(83, 15, 146);
+    padding-bottom: 5px;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.recipies-text p{
+    color: rgb(209, 66, 94);
+}
+#box-part{
+    display: flex;
+    height: 600px;
+    
+}
+.box-part-1{
+    box-shadow: 5px 5px 28px 0px rgba(196, 99, 99, 0.75);
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    margin-left: 5%;
+    margin-right: 125px;
+}
+.box-part-1 img{
+    width: 300px;
+    padding: 15px 25px;
+}
+.box-part-1 h2{
+    padding: 0px 20px;
+    color: darkcyan;
+}
+.box-part-1 p{
+    padding: 0px 20px;
+    color: rgb(21, 49, 49);
+}
+.box-part-2{
+    box-shadow: 5px 5px 28px 0px rgba(142, 94, 253, 0.75);
+    border-radius: 25px;
+    width: 350px;
+    margin-right: 107px;
+    height: 450px;
+    
+}
+.box-part-2 img{
+    width: 300px;
+    padding: 15px 25px;
+}
+.box-part-2 h2{
+    padding: 0px 20px;
+    color: crimson;
+}
+.box-part-2 p{
+    padding: 0px 20px;
+    color: rgb(121, 14, 36);
+   
+}
+.box-part-3{
+    box-shadow: 5px 5px 28px 0px rgba(252, 68, 68, 0.75);
+    border-radius: 25px;
+    width: 350px;
+    
+    height: 450px;
+    padding-left: 20px;
+    
+}
+.box-part-3 img{
+    width: 300px;
+    padding:15px 15px;
+}
+.box-part-3 h2{
+    color: darkmagenta;
+}
+.box-part-3 p{
+    color: rgb(89, 18, 119);
+}
+.view-part-area-1{
+    padding: 0px 154px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#view-part{
+    display: flex;
+    width: 88%;
+   background-color: rgb(203, 248, 248);
+    margin-left: 5%;
+   border-radius: 35px;
+   margin-top: 60px;
+   box-shadow: 5px 5px 20px 0px rgba(240, 126, 202, 0.75);
+   height: 190px;
+   margin-bottom: 120px;
+}
+.view-part-area-1 h2{
+    font-size: 32px;
+}
+.view-part-area p{
+    font-size: 10px;
+    width: 100px;
+}
+#footer-part{
+   background-color: darksalmon;
+    height: 200px;
+   box-shadow: 5px 5px 15px 0px rebeccapurple;
+}
+span{
+  color: rgb(140, 88, 199);
+}
+.text{
+    text-align: center;
+}
+.text h3{
+   padding-top: 40px;
+   color: rgb(14, 13, 13);
+   font-size: 30px;
+}
+.text p{
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+}
